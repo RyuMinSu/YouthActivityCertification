@@ -8,7 +8,7 @@ sql1 = """
 results = read_table(sql1)
 result = [result[0] for result in results]
 
-file = open('service_key.txt', 'r')
+file = open('../service_key.txt', 'r')
 service_key = file.readline()
 file.close()
 

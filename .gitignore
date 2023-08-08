@@ -161,6 +161,8 @@ cython_debug/
 
 service_key.txt
 
-practice.py
+main_code/practice.py
 
 naver_api_key.txt
+
+geo_key.txt

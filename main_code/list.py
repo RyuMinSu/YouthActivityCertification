@@ -1,6 +1,6 @@
 from youth.expactor.youthdata import get_data
 
-file = open('service_key.txt', 'r')
+file = open('../service_key.txt', 'r')
 service_key = file.readline()
 file.close()
 

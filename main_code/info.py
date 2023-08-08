@@ -24,7 +24,7 @@ results = read_table(sql)
 result = [result[0] for result in results]
 print("keyword 갯수:", len(result))
 
-file = open('service_key.txt', 'r')
+file = open('../service_key.txt', 'r')
 service_key = file.readline()
 file.close()
 
